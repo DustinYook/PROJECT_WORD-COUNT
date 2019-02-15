@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>wordcount - count</title>
+        <style>
+            body{text-align:center;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>COUNT</h1>
+            <hr>
+        </header>
+
+        <section>
+            <h1>Your Sentence consists of {{ total }} words!</h1>
+
+            <!-- 입력받은 전체 텍스트 -->
+            <span style="font-weight:bold;">Input Text</span><br>
+            <p>{{ fulltext }}</p><br><hr>
+                
+            <!-- '단어' - '단어나온 횟수' -->
+            <span style="font-weight:bold;">Word Frequency</span><br>
+            <p>
+                {% for key, value in dictionary %}
+                    {{ key }} : {{ value }}count(s) <br>
+                {% endfor %}
+            </p>
+        </section>
+
+        <a href="{% url 'home' %}">Retry</a><br>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Word Count Project</title>
+        <style>
+            body{text-align:center;}
+
+            textarea[name="fulltext"]
+            {
+                width:500px;
+                height:200px;
+                resize:none;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Word Count</h1>
+        <hr>
+        <a href="{% url 'about' %}">about</a>
+        <p>Please Enter Your Own Sentences, Then We Will Provide Word Count!</p>
+        <form action="{% url 'count' %}">
+            <textarea name="fulltext" placeholder="Please Enter Your Sentences"></textarea><br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
