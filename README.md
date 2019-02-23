@@ -64,7 +64,7 @@ def count(request):
 
 ## About
 
-![about](https://github.com/myeongs14/LikeLion_Manage_Report_Word_Count/blob/master/image/about.JPG)
+![about](https://github.com/DustinYook/DjangoWordCount/blob/master/about.PNG)
 
 
 
