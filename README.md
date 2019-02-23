@@ -6,9 +6,9 @@
 
 #### 1. 폰트 적용
 
-#### 2. 부트스트랩 예제 및 컴포넌트 적용
+#### 2. 부트스트랩 예제 및 컴포넌트 적용 (추가 개선방향)
 
-#### 3. 기존의 단어 수만 세는 것 외에 공백을 제외하거나 포함한 총 글자 수를 세어줌
+#### 3. 기존의 단어 수만 세는 것 외에 공백을 제외하거나 포함한 총 글자 수를 세어줌 (추가 개선방향)
 
 ```python
 def result(request): 
@@ -58,7 +58,7 @@ def count(request):
 
 ## Home
 
-![home](https://github.com/myeongs14/LikeLion_Manage_Report_Word_Count/blob/master/image/home.JPG)
+![home](https://github.com/DustinYook/DjangoWordCount/blob/master/home.PNG)
 
 
 
@@ -68,6 +68,6 @@ def count(request):
 
 
 
-## Result
+## Count
 
-![result](https://github.com/myeongs14/LikeLion_Manage_Report_Word_Count/blob/master/image/result.JPG)
+![result](https://github.com/DustinYook/DjangoWordCount/blob/master/count.PNG)
